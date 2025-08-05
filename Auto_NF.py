@@ -9,7 +9,7 @@ from email.mime.multipart import MIMEMultipart
 
 # Configurações do e-mail
 EMAIL_ADDRESS = os.getenv('EMAIL_ADDRESS', 'diego.arinaldo@senff.com.br')  # Usar variáveis de ambiente para segurança
-EMAIL_PASSWORD = os.getenv('EMAIL_PASSWORD', "Meteora549@")  # Usar variáveis de ambiente para segurança
+EMAIL_PASSWORD = os.getenv('EMAIL_PASSWORD', "********")  # Usar variáveis de ambiente para segurança
 TO_EMAIL = 'diego.santos@bsd.com.br'
 
 # Função para enviar e-mail com codificação UTF-8
@@ -86,6 +86,7 @@ while True:
     print("Aguardando próxima execução...")
     schedule.run_pending()
     time.sleep(60)  # Espera um minuto para a próxima execução
+
 
 
 
