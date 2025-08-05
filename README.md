@@ -1,1 +1,0 @@
-Resumo geral: O código lê um arquivo Excel, verifica diariamente às 09:34 se há notas fiscais com vencimento previsto para dois dias à frente e, se houver, envia um e-mail de lembrete com os detalhes. Ele é útil para automação de lembretes financeiros ou administrativos, garantindo que vencimentos não sejam esquecidos.
